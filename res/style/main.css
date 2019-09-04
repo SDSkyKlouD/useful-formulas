@@ -104,7 +104,7 @@ nav {
 
     width: 100%;
     height: 64px;
-    padding: 0.5rem;
+    padding: 0.5rem 5vw;
     
     backdrop-filter: blur(5px);
     z-index: 1;
@@ -113,12 +113,13 @@ nav {
 nav .back_icon {
     height: 100%;
     border-radius: 100%;
-    transition: box-shadow 0.5s, padding 0.5s;
+    transition: box-shadow 0.5s, padding 0.5s, background-color 0.5s;
 }
 
 nav .back_icon:hover {
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
     padding: 0.5rem;
+    background-color: white;
 }
 
 textarea {
@@ -153,5 +154,9 @@ main table td {
     body.content {
         margin-left: 2rem;
         margin-right: 2rem;
+    }
+
+    nav {
+        padding: 0.5rem;
     }
 }
