@@ -134,6 +134,21 @@ main h1, main h2 {
     border-bottom: solid lightgray 1px;
 }
 
+main table {
+    border-collapse: collapse;
+}
+
+main table thead {
+    text-align: center;
+    font-weight: 600;
+    background: #F6F8FA;
+}
+
+main table td {
+    border: 1px solid lightgray;
+    padding: 0.33rem;
+}
+
 @media (max-width: 700px) {
     body.content {
         margin-left: 2rem;
