@@ -33,6 +33,12 @@ code {
     padding: 0.1em 0.25em;
 }
 
+pre code {
+    background: none !important;
+    border-radius: initial !important;
+    padding: initial !important;
+}
+
 /* index.html */
 header#title h3 {
     font-weight: 100;
